@@ -1,26 +1,53 @@
-button {
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+button {
     background-color: #3882F6;
     color: white;
 }
 
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none; 
+    color: white;
+}
 
 .header {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
 }
 
-.quote {
-
-    background-color: #E5E7EB;
-
+.header-top {
+    display: flex;
+    justify-content: space-between;
 }
 
-.action {
-
-    background-color: #3882F6;
-
+.header-mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px, 30px;
 }
 
+.header-logo {
+    color: white;
+}
+
+.top-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .header-main-text {
     font-size: 48px;
@@ -32,6 +59,11 @@ button {
  .link-text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.header-right {
+    height: 30px;
+    width: 30px;
 }
 
 
