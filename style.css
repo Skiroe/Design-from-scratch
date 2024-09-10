@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
 /* 
 ------------------ Header ---------------------------- */
 
@@ -73,7 +80,7 @@ a {
 
 .header-mid {
     display: flex;
-    justify-content: space-between;
+    flex: 1 1;
     align-items: center;
     margin-top: 80px;
     margin-right: 80px;
