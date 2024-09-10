@@ -88,8 +88,8 @@ a {
 
 .horse {
     display: flex;
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 250px;
     justify-content: center;
 }
 
