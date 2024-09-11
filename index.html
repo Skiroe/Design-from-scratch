@@ -1,78 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Site Replica</title>
-</head>
-<body>
-    <div class="header"> 
-        <div class="header-top">
-            <div class="header-logo">Header logo</div>
-            <div class = "header-links">
-                <ul>
-                    <li><a href="#">link one</a></li>
-                    <li><a href="#">link two</a></li>
-                    <li><a href="#">link three</a></li>
-                </ul>
-            </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Site Replica</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                    <div class="nav-left">Header logo</div>
+                    <div class = "nav-right">
+                        <ul class="links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Socials</a></li>
+                        </ul>
+                    </div>
+            </header>
+            <main>
+                <section class="header-content">
+                    <div class="content-left">
+                        <div class="header-main-text">My horse is awesome</div>
+                        <div class="header-sub-text">This is my horse pedro, raised and bred in the mongolian steppe. The day we met it just clicked between us and I became the rightful master of Pedro. I mounted him and we rode of to embark on a never to forget journey. Sign up to be a part!</div>
+                        <button class="header-button">Sign up</button>
+                    </div>
+                    <div>
+                        <div class="header-img">
+                            <img src="./images/horse.png">
+                        </div>
+                    </div>
+                </section>
+                <section class="hero">
+                    <div class="info">Our Journey</div>
+                    <div class="pic-text-pair">
+                        <div class="pair">
+                            <img src="./images/building.png" alt="no image">
+                            <div class="hero-subtext">Our accommodation in Mexico</div>
+                        </div>
+                        <div class="pair">
+                            <img src="./images/car.png" alt="no image">
+                            <div class="hero-subtext">Our roadtrip to the aztec pyramids</div>
+                        </div>
+                        <div class="pair">
+                            <img src="./images/desert.png" alt="no image">
+                            <div class="hero-subtext">The desert landscape to which pedro grew accustomed to</div>
+                        </div>
+                        <div class="pair">
+                            <img src="./images/snow.png" alt="no image">
+                            <div class="hero-subtext">Ending it with a trip to the Himalayas</div>
+                        </div>
+                    </div>
+                </section>
+            </main>
         </div>
-        <div class="header-mid">
-            <div class="header-left">
-                <div class="header-main-text">This website is awesome</div>
-                <div class="header-sub-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta consequat nunc, eget tincidunt mauris tristique vel. Nulla ac tempor nunc. Phasellus iaculis urna id porttitor mollis. Duis sit amet neque at risus porta ultricies. Nunc placerat sem nisi, vel vulputate lacus vulputate vel. Cras finibus semper pharetra. Sed tortor turpis, suscipit non venenatis ac, hendrerit et sem.</div>
-                <button class="header-button">Sign up</button>
-            </div>
-            <div class="header-right">
-                <img class="horse" src="./images/horse.png">
-            </div>
-        </div>
-    </div>
-
-    <div class="information">
-        <div class="information-header-text">Some random Information</div>
-        <div class="information-pics-text">
-            <div class="information-pair">
-                <img class="information-pics" src="./images/building.png">
-                <p class="subtext">This is some subtext under an illustration or image</p>
-            </div>
-            <div class="information-pair">
-                <img class="information-pics" src="./images/car.png">
-                <p class="subtext">This is some subtext under an illustration or image</p>
-            </div>
-            <div class="information-pair">
-                <img class="information-pics" src="./images/desert.png">
-                <p class="subtext">This is some subtext under an illustration or image</p>
-            </div>
-            <div class="information-pair">
-                <img class="information-pics" src="./images/snow.png">
-                <p class="subtext">This is some subtext under an illustration or image</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="quote">
-        <div class="quote-text"> This is an inspiring quote, or a testimonial from a customer, Maybe I'ts just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
-            <div class="author"> ~ Thor, God of Thunder</div>
-        </div>
-    </div>
-
-    <div class="action">
-        <div class="action-left">
-            <div class="action-main-text">Call to action! It's time!</div>
-            <div class="action-sub-text">Sign up for our product by clicking that button right over there!</div>
-        </div>
-        <div class="action-right">
-            <button class="action-button">Sign up</button>
-        </div>
-    </div> 
-    <div class="footer">
-        <p class="footer-text">Copyright @ The Odin Project 2021</p>
-    </div>
-    
-
-
-    
-</body>
+    </body>
 </html>
